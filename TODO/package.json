@@ -1,0 +1,38 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "main": "expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@gorhom/bottom-sheet": "^4.6.3",
+    "@react-native-picker/picker": "^2.7.5",
+    "@react-navigation/bottom-tabs": "^6.5.20",
+    "@react-navigation/native": "^6.1.17",
+    "@react-navigation/stack": "^6.3.29",
+    "axios": "^1.7.2",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "crypto-js": "^4.2.0",
+    "date-fns": "^3.6.0",
+    "expo": "~51.0.14",
+    "expo-status-bar": "~1.12.1",
+    "express": "^4.19.2",
+    "mysql": "^2.18.1",
+    "react": "18.2.0",
+    "react-native": "0.74.2",
+    "react-native-mask-text": "^0.14.2",
+    "react-native-paper": "^5.12.3",
+    "react-native-reanimated": "^3.10.1",
+    "react-native-sha256": "^1.4.10"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0"
+  },
+  "private": true
+}
